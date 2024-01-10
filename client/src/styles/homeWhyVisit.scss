@@ -1,0 +1,96 @@
+@use './variables.scss' as *;
+
+
+.whyVisitMainComponents{
+    margin-top: 3rem;
+    text-align: center;
+
+
+    h1{
+        margin: 1rem 0;
+    }
+
+    .whyVisitCardContainer{
+        border: 1px solid $cardBorderColor;
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px 1px $cardBorderColor;
+
+
+
+        .listData{
+            display: grid;
+            grid-template-columns: repeat(3,350px);
+            text-align: start;
+            justify-items: center;
+            gap: 20px;
+            padding-bottom: 1rem;
+            overflow-x: scroll;
+            
+
+                p{
+                    padding: 1rem;
+                    background-color: $primaryModalColor;
+                    line-height: 24px;
+                    font-size: 15px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    width: 350px;
+
+                    img{
+                        width: 280px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+                    span{
+                        display: block;
+                        font-weight: 600;
+                    }
+
+                    &::marker{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+@media screen and (min-width: 1023px) {
+    .whyVisitMainComponents {
+
+    
+    
+            h1 {
+                margin: 1rem 0;
+            }
+    
+            .whyVisitCardContainer {
+    
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+    
+    
+                .listData {
+
+                    p{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    ul {
+    
+                        li {
+                            line-height: 28px;
+                            font-size: 18px;
+                            letter-spacing: 0px;
+                            margin: 0.3rem 0;
+                        }
+                    }
+                }
+            }
+        }
+}
