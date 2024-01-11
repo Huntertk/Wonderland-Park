@@ -88,13 +88,13 @@ export const cardHighLightsDetails = [
         id: uuidv4(),
         image: "https://i.postimg.cc/xTpVyCRg/Whats-App-Image-2024-01-09-at-13-15-35.jpg",
         title:"Magical Bridge",
-        desc:"Adorned with love locks, this bridge bears witness to the love shared between you and your partner. As night falls, it transforms with enchanting lights, creating a perfect ambiance for lovebirds to share sweet whispers."
+        desc:"Adorned with love locks, this bridge bears witness to the love shared between you and your partner. As night falls, it transforms with enchanting lights, creating a perfect ambiance for love birds to share sweet whispers."
     },
     {
         id: uuidv4(),
         image: "https://i.postimg.cc/cJnWJSfh/water-fountain-2.jpg",
         title:"Colourful Water Fountains",
-        desc:"Enhancing the park's ambiance, two vibrant water fountains grace the center of thelake, creating a picturesque scene as you stroll through."
+        desc:"Enhancing the park's ambiance, two vibrant water fountains grace the center of the lake, creating a pictures que scene as you stroll through."
     },   
     {
         id: uuidv4(),
@@ -131,7 +131,7 @@ export const thingsTodo = [
     },
     {
         id: uuidv4(),
-        desc:"Embark on a delightful journey exploring the park's entertaining attractionsanddiscover captivating photo spots for a memorable experience.",
+        desc:"Embark on a delightful journey exploring the park's entertaining attractions and discover captivating photo spots for a memorable experience.",
         image: "https://i.postimg.cc/L68M1fzn/Whats-App-Image-2024-01-09-at-13-14-53.jpg"
     },
     
@@ -207,28 +207,28 @@ export const addQues = [
 export const homeFAQ = [
     {
         id: uuidv4(),
-        ques:"Can I bring food inside Sunway Lagoon ?",
+        ques:"Can I bring food inside 99 Wonderland Park ?",
         ans:"No. Food and drinks is prohibited inside."
     },
     {
         id: uuidv4(),
-        ques:"Does my 2 years old baby need to buy ticket to enter Sunway Lagoon ?",
-        ans:"No, Child below 90cm can enter for FREE."
+        ques:"Do I have to book a time slot to enter 99 Wonderland Park ?",
+        ans:"No, you may enter anytime within the operation hours."
     },
     {
         id: uuidv4(),
-        ques:"How long can I stay inside Sunway Lagoon ?",
+        ques:"Does my 2 years old baby need to buy ticket to enter 99 Wonderland Park ?",
+        ans:"No, 2 years old and below can enter for FREE."
+    },
+    {
+        id: uuidv4(),
+        ques:"Can I bring stroller / wheelchair inside 99 Wonderland Park ?",
+        ans:"Yes, you may bring"
+    },
+    {
+        id: uuidv4(),
+        ques:"How long can I stay inside 99 Wonderland Park ?",
         ans:"You may stay as long as you want, no time limit."
-    },
-    {
-        id: uuidv4(),
-        ques:"When does Sunway Lagoon close ?",
-        ans:"Sunway Lagoon is close every Tuesday except for Public Holiday and School Holiday."
-    },
-    {
-        id: uuidv4(),
-        ques:"Does my ticket includes Locker and Tubes ?",
-        ans:"No, its not included, but there are stations everywhere inside the park where guest may rent the items needed."
     },
     {
         id: uuidv4(),
@@ -237,18 +237,8 @@ export const homeFAQ = [
     },
     {
         id: uuidv4(),
-        ques:"Can I enter Night park if I buy Full Day Ticket ?",
-        ans:"Yes, Customer who have Full Day Ticket may enjoy night park as well by staying inside the park as no re-entry is allowed."
-    },
-    {
-        id: uuidv4(),
-        ques:"Can I buy Only Quack Express Tickets if I already have Annual Pass ?",
-        ans:"For Annual Pass Holders, you may buy Quack Express tickets only separatelyifyou want to enjoy Express Lane Privilege."
-    },
-    {
-        id: uuidv4(),
-        ques:"Can I buy Quack Express Tickets only to enter Sunway Lagoon ?",
-        ans:"No. Quack Express is only add on ticket. You are required to have admission ticketsto enter the park."
+        ques:"Can I bring camera inside the 99 Wonderland Park ?",
+        ans:"Yes you may bring but please love the animals and never use your Flash as it might disturb them."
     },
 ]
 

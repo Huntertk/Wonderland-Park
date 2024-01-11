@@ -12,11 +12,11 @@ const HomeWhyVisit = () => {
 
                     <p>
                         <img src="https://i.postimg.cc/cC1PfytV/Whats-App-Image-2024-01-09-at-13-17-41.jpg" alt="" /><br />
-                        Two vibrant water fountains positioned in the heart of the lake present acaptivating musical display of light and sound on special evenings.<br/>
+                        Two vibrant water fountains positioned in the heart of the lake present a captivating musical display of light and sound on special evenings.<br/>
                     </p>
                     <p>
                         <img src="https://i.postimg.cc/7PVkhXJF/Whats-App-Image-2024-01-09-at-13-13-33.jpg" alt="" /><br />
-                        A must-try experience is taking a river cruise to immerse yourself in thesereneatmosphere accompanied by a gentle, cooling breeze. For those seekingabit ofexercise, you can opt for a paddle boat ride.<br/>
+                        A must-try experience is taking a river cruise to immerse yourself in the serene atmosphere accompanied by a gentle, cooling breeze. For those seeking a bit of exercise, you can opt for a paddle boat ride.<br/>
 
                     </p>
                     <p>

@@ -66,7 +66,6 @@ const bookingSlice = createSlice({
                         return 
                     }
                     state.adultTotal = state.adultCount *  state.prefrenceOpt[0].price.weekday.adult
-                    return
                 }  else if(state.pref === 'Non-Malaysian') {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekend.adult
@@ -84,10 +83,9 @@ const bookingSlice = createSlice({
                         return 
                     }
                     state.childTotal = state.childCount *  state.prefrenceOpt[0].price.weekday.child
-                    return
                 }  else if(state.pref === 'Non-Malaysian') {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
-                        state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekend.child
+                        state.childTotal = state.childCount *  state.prefrenceOpt[1].price.weekend.child
                         return 
                     }
                     state.childTotal = state.childCount *  state.prefrenceOpt[1].price.weekday.child
@@ -103,10 +101,9 @@ const bookingSlice = createSlice({
                         return 
                     }
                     state.seniorTotal = state.seniorCount *  state.prefrenceOpt[0].price.weekday.senior
-                    return
                 } else if(state.pref === 'Non-Malaysian') {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
-                        state.seniorTotal = state.seniorCount *  state.prefrenceOpt[0].price.weekend.senior
+                        state.seniorTotal = state.seniorCount *  state.prefrenceOpt[1].price.weekend.senior
                         return 
                     }
                     state.seniorTotal = state.seniorCount *  state.prefrenceOpt[1].price.weekday.senior
