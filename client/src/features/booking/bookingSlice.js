@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { setBookingDetailsFromLocalStorage, getBookingDetailsFromLocalStorage } from "../../utils/localStorage";
 import { toast } from 'react-toastify';
+import { publicHolidays } from "../../data";
 
 
 const initialState = {
@@ -59,9 +60,14 @@ const bookingSlice = createSlice({
             state.seniorCount = state.seniorCount - 1
         },
         adultTotalAmount: (state) => {
+            const publicHoliday = publicHolidays.includes(state.bookingDate);
+
             if(state.type === 'bookTypeOne'){
                 if(state.pref === "Malaysian") {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.adultTotal = state.adultCount *  state.prefrenceOpt[0].price.weekend.adult
+                        return 
+                    } else if(publicHoliday){
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[0].price.weekend.adult
                         return 
                     }
@@ -70,21 +76,32 @@ const bookingSlice = createSlice({
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekend.adult
                         return 
+                    } else if(publicHoliday){
+                        state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekend.adult
+                        return 
                     }
                     state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekday.adult
                 }
             }
         },
         childTotalAmount: (state) => {
+            const publicHoliday = publicHolidays.includes(state.bookingDate);
+
             if(state.type === 'bookTypeOne'){
                 if(state.pref === "Malaysian") {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.childTotal = state.childCount *  state.prefrenceOpt[0].price.weekend.child
+                        return 
+                    } else if(publicHoliday){
                         state.childTotal = state.childCount *  state.prefrenceOpt[0].price.weekend.child
                         return 
                     }
                     state.childTotal = state.childCount *  state.prefrenceOpt[0].price.weekday.child
                 }  else if(state.pref === 'Non-Malaysian') {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.childTotal = state.childCount *  state.prefrenceOpt[1].price.weekend.child
+                        return 
+                    } else if(publicHoliday){
                         state.childTotal = state.childCount *  state.prefrenceOpt[1].price.weekend.child
                         return 
                     }
@@ -94,15 +111,23 @@ const bookingSlice = createSlice({
             } 
         },
         seniorTotalAmount: (state) => {
+            const publicHoliday = publicHolidays.includes(state.bookingDate);
+
             if(state.type === 'bookTypeOne'){
                 if(state.pref === "Malaysian") {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.seniorTotal = state.seniorCount *  state.prefrenceOpt[0].price.weekend.senior
+                        return 
+                    } else if(publicHoliday){
                         state.seniorTotal = state.seniorCount *  state.prefrenceOpt[0].price.weekend.senior
                         return 
                     }
                     state.seniorTotal = state.seniorCount *  state.prefrenceOpt[0].price.weekday.senior
                 } else if(state.pref === 'Non-Malaysian') {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.seniorTotal = state.seniorCount *  state.prefrenceOpt[0].price.weekend.senior
+                        return 
+                    } else if(publicHoliday){
                         state.seniorTotal = state.seniorCount *  state.prefrenceOpt[1].price.weekend.senior
                         return 
                     }

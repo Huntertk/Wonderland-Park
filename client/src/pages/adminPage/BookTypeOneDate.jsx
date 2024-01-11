@@ -13,7 +13,7 @@ const BookTypeOneDate = () => {
     const [isFetch, setIsFetch] = useState(false)
     const [blockedDates, setBlockedDates] = useState([])
     const disabledDays = blockedDates?.map((dates) => new Date(dates.blockDates))
-      const dateToString = selectedDate.toString()
+      const dateToString = selectedDate?.toString();
       function isPastDate(date) {
         return differenceInCalendarDays(date, new Date()) < 0;
       }
@@ -68,7 +68,7 @@ const BookTypeOneDate = () => {
                 onSelect={setSelectedDate}
             />
 
-        {selectedDate && <p>You selected { format(selectedDate, 'PPP')} </p>}    
+        {selectedDate && <p>You selected { selectedDate && format(selectedDate, 'PPP')} </p>}    
 
        {selectedDate && <button className='btn' onClick={addBlockDate}
        disabled={isLoading}

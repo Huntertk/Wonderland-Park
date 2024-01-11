@@ -342,3 +342,26 @@ export const termsandconditiondata = [
         list:["Any legal controversy will be settled by binding arbitration. Each party bears one-half of arbitration fees."]
     },
 ]
+
+
+export const publicHolidays = [
+    "January 25th, 2024",
+    "February 1st, 2024",
+    "February 12th, 2024",
+    "February 13th, 2024",
+    "February 14th, 2024",
+    "February 15th, 2024",
+    "February 19th, 2024",
+    "February 20th, 2024",
+    "February 21st, 2024",
+    "February 22nd, 2024",
+    "February 26th, 2024",
+    "February 27th, 2024",
+    "February 28th, 2024",
+    "February 29th, 2024",
+    "March 4th, 2024",
+    "March 5th, 2024",
+    "March 6th, 2024",
+    "March 7th, 2024",
+    "March 28th, 2024"
+]
