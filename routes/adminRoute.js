@@ -4,7 +4,7 @@ import { loginAdmin, logoutAdmin, registerAdmin } from '../controllers/adminCont
 
 const router  = Router()
 
-router.post('/register', registerAdmin)
+// router.post('/register', registerAdmin)
 router.post('/login', loginAdmin)
 router.get('/logout', logoutAdmin)
 
