@@ -162,7 +162,7 @@ const BookingDateConfirmation = () => {
             hidden={isPastDate}
             onSelect={setSelectedDate}
             fromMonth={defaultMonth}
-            toDate={new Date(Date.now() + 1000 * 60 *60 *24 *30)}
+            toDate={new Date(Date.now() + 1000 * 60 *60 *24 *90)}
             disabled={disabledDates}
             />
             </div>
