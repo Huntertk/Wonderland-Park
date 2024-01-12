@@ -19,8 +19,7 @@ const HomeCardContainer = () => {
       console.log(error);
     }
   }
-
-
+  
   useEffect(() => {
     getCardData()
     dispatch(initialRender())

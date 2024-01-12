@@ -39,8 +39,8 @@ export const createBooking = async (req, res) => {
                 },
             ],
             mode: 'payment',
-            success_url: `https://sunwaylagoon.malaysia-experience.com/${responseClientUrl}`,
-            cancel_url: 'https://sunwaylagoon.malaysia-experience.com/',
+            success_url: `https://wonderland-park.onrender.com/${responseClientUrl}`,
+            cancel_url: 'https://wonderland-park.onrender.com/',
             payment_intent_data: {
                 setup_future_usage: 'off_session',
                 description: 'Booking payment',

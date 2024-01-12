@@ -1,117 +1,50 @@
-[
-    {
-        "id": "2ac756be-a27d-4413-969f-e35877eaaf9a",
-        "image": [
-            "https://i.postimg.cc/SQ3jTkPk/1-1.jpg",
-            "https://i.postimg.cc/3w8w4RkC/1-2.jpg",
-            "https://i.postimg.cc/qqhqJ5zP/5.jpg",
-            "https://i.postimg.cc/wjhtRZ0H/NLL-Cover.jpg",
-            "https://i.postimg.cc/mD6hGs23/6.jpg",
-            "https://i.postimg.cc/DZmy6MdS/the-villas-at-sunway.jpg",
-            "https://i.postimg.cc/P5zx5Z55/pirate-s-revenge-3-wide.jpg"
-        ],
-        "title": "Full Day Admission",
-        "desc": "Unlock a day of excitement at Sunway Lagoon with the Full Day Admission Ticket for MyKad holders. Enjoy thrilling rides, water attractions, and endless fun in Malaysia's premier amusement park.",
-        "type": "bookTypeOne",
-        "preference": [
-            {
-                "title": "Malaysian",
-                "price": {
-                    "adult": 141,
-                    "child": 119,
-                    "senior": 119
+{
+    "_id": "659f8a1fe02526eda450df50",
+    "image": [
+        "https://i.postimg.cc/cC1PfytV/Whats-App-Image-2024-01-09-at-13-17-41.jpg",
+        "https://i.postimg.cc/L68M1fzn/Whats-App-Image-2024-01-09-at-13-14-53.jpg",
+        "https://i.postimg.cc/7PVkhXJF/Whats-App-Image-2024-01-09-at-13-13-33.jpg",
+        "https://i.postimg.cc/zG9m6c4g/Whats-App-Image-2024-01-09-at-13-16-07.jpg"
+    ],
+    "title": "99 Wonderland Park",
+    "desc": "As the inaugural recreational park in Kuala Lumpur showcasing rare animals and birds, it provides a unique chance to witness nature's wonders up close. Revel in the harmonious fusion of captivating wildlife and breathtaking landscapes as you explore the enchanting surroundings of this park.",
+    "type": "bookTypeOne",
+    "preference": [
+        {
+            "title": "Malaysian",
+            "price": {
+                "weekend": {
+                    "adult": 65,
+                    "child": 40,
+                    "senior": 40
                 },
-                "details": [
-                    "Valid only for Malaysian Citizens"
-                ]
+                "weekday": {
+                    "adult": 45,
+                    "child": 25,
+                    "senior": 25
+                }
             },
-            {
-                "title": "Non-Malaysian",
-                "price": {
-                    "adult": 181,
-                    "child": 149,
-                    "senior": 149
+            "details": [
+                "Valid only for Malaysian Citizens"
+            ]
+        },
+        {
+            "title": "Non-Malaysian",
+            "price": {
+                "weekend": {
+                    "adult": 90,
+                    "child": 60,
+                    "senior": 60
                 },
-                "details": [
-                    "Valid only for Non Malaysian Citizens"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "b4623f67-b32a-4846-9a17-1f4384e707f8",
-        "image": [
-            "https://i.postimg.cc/28LZvTb7/e4b73bbb-d5d9-4ca2-9414-cd80567c5c9a.jpg",
-            "https://i.postimg.cc/wjhtRZ0H/NLL-Cover.jpg",
-            "https://i.postimg.cc/qqhqJ5zP/5.jpg",
-            "https://i.postimg.cc/3w8w4RkC/1-2.jpg"
-        ],
-        "title": "Quack Express Only",
-        "desc": "Upgrade your visit with Quack Xpress - skip regular queues at selected rides and attractions. Note:Quack Xpress is an express lane pass, not an admission ticket.",
-        "type": "bookTypeTwo",
-        "pricing": {
-            "adult": 75,
-            "child": 75,
-            "senior": 75
-        }
-    },
-    {
-        "id": "3866c086-202f-4b70-ab06-dae9e4dff8ee",
-        "image": [
-            "https://i.postimg.cc/kM0KVQqQ/the-ghostbusters-adventure-live-at-sunway-lagoon-11.jpg",
-            "https://i.postimg.cc/RZ9tdv3q/Apache-Pots-Sunway-Lagoon-Night-Park.jpg",
-            "https://i.postimg.cc/hGZ7Kx27/Vultures-Sunway-Lagoon-Night-Park.jpg",
-            "https://i.postimg.cc/Y059hzFh/Image-P.jpg",
-            "https://i.postimg.cc/zG1vNp5Q/2.jpg",
-            "https://i.postimg.cc/3w8w4RkC/1-2.jpg"
-        ],
-        "title": "Night Park Admission Ticket",
-        "desc": "Experience the magic of Sunway Lagoon after sunset at our Night Park. Enjoy dazzling lights, exciting rides, and captivating entertainment for an unforgettable evening adventure. ",
-        "type": "bookTypeThree",
-        "pricing": {
-            "adult": 50,
-            "child": 48,
-            "senior": 48
-        }
-    },
-    {
-        "id": "431e61d7-6bc1-4f21-88f4-bb7a1d3cf9a0",
-        "image": [
-            "https://i.postimg.cc/28LZvTb7/e4b73bbb-d5d9-4ca2-9414-cd80567c5c9a.jpg",
-            "https://i.postimg.cc/SQ3jTkPk/1-1.jpg",
-            "https://i.postimg.cc/3w8w4RkC/1-2.jpg",
-            "https://i.postimg.cc/qqhqJ5zP/5.jpg",
-            "https://i.postimg.cc/wjhtRZ0H/NLL-Cover.jpg",
-            "https://i.postimg.cc/mD6hGs23/6.jpg",
-            "https://i.postimg.cc/DZmy6MdS/the-villas-at-sunway.jpg",
-            "https://i.postimg.cc/P5zx5Z55/pirate-s-revenge-3-wide.jpg"
-        ],
-        "title": "Combo Admission + Quack Express",
-        "desc": "Enhance your Sunway Lagoon adventure as an international guest with our Day Admission Ticket, featuring the added convenience of Quack Xpress. Immerse yourself in all the attractions and skip regular lines at selected rides for a day filled with seamless thrills and excitement!",
-        "type": "bookTypeFour",
-        "preference": [
-            {
-                "title": "Malaysian",
-                "price": {
-                    "adult": 218,
-                    "child": 200,
-                    "senior": 200
-                },
-                "details": [
-                    "Valid only for Malaysian Citizens"
-                ]
+                "weekday": {
+                    "adult": 70,
+                    "child": 40,
+                    "senior": 40
+                }
             },
-            {
-                "title": "Non-Malaysian",
-                "price": {
-                    "adult": 229,
-                    "child": 209,
-                    "senior": 209
-                },
-                "details": [
-                    "Valid only for Non Malaysian Citizens"
-                ]
-            }
-        ]
-    }
-]
+            "details": [
+                "Valid only for Non Malaysian Citizens"
+            ]
+        }
+    ]
+}
