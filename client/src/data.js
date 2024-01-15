@@ -232,11 +232,6 @@ export const homeFAQ = [
     },
     {
         id: uuidv4(),
-        ques:"Is all games included in my ticket ?",
-        ans:"Yes all included except for Paid Games; Buggy Jump, G-Force X and GoKart"
-    },
-    {
-        id: uuidv4(),
         ques:"Can I bring camera inside the 99 Wonderland Park ?",
         ans:"Yes you may bring but please love the animals and never use your Flash as it might disturb them."
     },
