@@ -65,21 +65,27 @@ const bookingSlice = createSlice({
             if(state.type === 'bookTypeOne'){
                 if(state.pref === "Malaysian") {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.bookingTitle = "99 Wonderland Park Peak"
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[0].price.weekend.adult
                         return 
                     } else if(publicHoliday){
+                        state.bookingTitle = "99 Wonderland Park Peak"
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[0].price.weekend.adult
                         return 
                     }
+                    state.bookingTitle = "99 Wonderland Park Off Peak"
                     state.adultTotal = state.adultCount *  state.prefrenceOpt[0].price.weekday.adult
                 }  else if(state.pref === 'Non-Malaysian') {
                     if(state.bookingDay === 'Fri' || state.bookingDay == 'Sat' || state.bookingDay === 'Sun'){
+                        state.bookingTitle = "99 Wonderland Park Peak"
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekend.adult
                         return 
                     } else if(publicHoliday){
+                        state.bookingTitle = "99 Wonderland Park Peak"
                         state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekend.adult
                         return 
                     }
+                    state.bookingTitle = "99 Wonderland Park Off Peak"
                     state.adultTotal = state.adultCount *  state.prefrenceOpt[1].price.weekday.adult
                 }
             }
